@@ -12,7 +12,7 @@ driver = webdriver.Chrome(options=options)
 # going to verbal memory
 driver.get('https://humanbenchmark.com/tests/verbal-memory')
 
-time.sleep(1)
+time.sleep(5)
 
 # click start
 start = driver.find_element("xpath", "//button[text()='Start']")
