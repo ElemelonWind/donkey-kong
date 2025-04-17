@@ -2,7 +2,7 @@
 
 Making a computer smarter than a chimpanzee (and also humans) by making it good at [human benchmark](https://humanbenchmark.com/) challenges.
 
-Install required libraries via requirements.txt. You'll need to install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki) (which does optical character recognition) for the chimp test, and may need to upgrade the selenium (which handles browser automation) based on your Chrome version.
+Install required libraries via requirements.txt. You'll need to install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki) (which does optical character recognition) for the chimp test and may need to upgrade Selenium (which handles browser automation) via "pip install -U selenium" based on your Chrome version.
 
 ## Chimp Test
 
