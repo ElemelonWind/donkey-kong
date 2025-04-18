@@ -2,7 +2,7 @@
 
 Making a computer smarter than a chimpanzee (and also humans) by making it good at [human benchmark](https://humanbenchmark.com/) challenges.
 
-Install required libraries via requirements.txt. You'll need to install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki) (which does optical character recognition) for the chimp test and may need to upgrade Selenium (which handles browser automation) via "pip install -U selenium" based on your Chrome version.
+Install required libraries via `pip install -r requirements.txt`. You'll need to install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki) (which does optical character recognition) for the chimp test and may need to upgrade `selenium` via `pip install -U selenium` based on your Chrome version.
 
 ## Chimp Test
 
@@ -21,3 +21,5 @@ Our approach to this involved opening the web browser using `selenium` and then 
 This test is a reaction time test, where the user must click on the screen as soon as it turns green.
 
 All we had to do here was check the RGB value of the screen at a certain location and click if it was green. This was slower than we wanted because we coded it in Python, but we can't be bothered to do it in C++ :)
+
+Okay, addendum. We did it in C++ (using WinAPI). And yes, it is faster.
